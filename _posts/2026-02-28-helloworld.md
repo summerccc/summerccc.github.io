@@ -12,6 +12,7 @@ tags:
 toc: true
 toc_label: "文章目录"
 toc_icon: "cog"
+mathjax: true
 ---
 
 ## 为什么选择 Minimal Mistakes？
@@ -30,7 +31,8 @@ toc_icon: "cog"
 2.  **数学公式**（如果你开启了 Mathjax）：
     当 $a \ne 0$ 时，方程 $ax^2 + bx + c = 0$ 的根为：
     $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
-
+	这是一行行内公式：$E = mc^2$
+	
 3.  **引用块**：
     > “Stay hungry, stay foolish.” —— Steve Jobs
 
