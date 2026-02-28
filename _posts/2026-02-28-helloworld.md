@@ -1,14 +1,14 @@
 ---
-title: "重塑起航：我的第一篇博客文章"
+title: "重塑起航"
 excerpt: "记录从零开始搭建极简主义博客的心路历程，以及对未来技术分享的规划。"
 last_modified_at: 2026-02-28T16:35:00-05:00
 categories:
   - 技术
   - 生活
 tags:
-  - Jekyll
-  - GitHub Pages
-  - Minimal Mistakes
+  - 记录
+  - 笔记
+  - 感悟
 toc: true
 toc_label: "文章目录"
 toc_icon: "cog"
@@ -31,6 +31,7 @@ mathjax: true
 2.  **数学公式**（如果你开启了 Mathjax）：
     当 $a \ne 0$ 时，方程 $ax^2 + bx + c = 0$ 的根为：
     $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
+	
 	这是一行行内公式：$E = mc^2$
 	
 3.  **引用块**：
