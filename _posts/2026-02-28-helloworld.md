@@ -1,6 +1,14 @@
 ---
 title: "重塑起航"
 excerpt: "记录从零开始搭建极简主义博客的心路历程，以及对未来技术分享的规划。"
+header:
+  # 文章开头的大图
+  overlay_image: /assets/images/2026-02-28-helloworld/07-after lowlightEnh.jpg
+  overlay_filter: 0.5 # 让图片暗一点，突出文字
+  caption: "图片来源：Unsplash"
+  # 排列博文的略缩图
+  teaser: /assets/images/2026-02-28-helloworld/06-yuv denoising.jpg 
+  
 last_modified_at: 2026-02-28T16:35:00-05:00
 categories:
   - 技术
@@ -37,6 +45,11 @@ mathjax: true
 3.  **引用块**：
     > “Stay hungry, stay foolish.” —— Steve Jobs
 
+4.  **使用图片**
+	<figure>
+	  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2026-02-28-helloworld/07-after lowlightEnh.jpg" alt="增强图">
+	  <figcaption>图 1：这是传统图像处理的增强图。</figcaption>
+	</figure>
 ---
 
 ## 未来的计划
