@@ -7,6 +7,6 @@ main:
   - title: "标签"
     url: /tags/
   - title: "关于我"
-     url: /about/
+    url: /about/
   # - title: "Sitemap"
   #   url: /sitemap/
