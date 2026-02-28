@@ -110,7 +110,7 @@ author:
   avatar           : "/assets/images/src/bio-photo.jpg"
   bio              : "“Stay hungry, stay foolish.” —— Steve Jobs"
   location         : "中国 深圳"
-  email            : "qicaihuang@foxmail.com"
+  # email            : "qicaihuang@foxmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
