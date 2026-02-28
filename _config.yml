@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "黄其才"
   avatar           : "/assets/images/src/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "“Stay hungry, stay foolish.” —— Steve Jobs"
   location         : "中国 深圳"
   email            : "qicaihuang@foxmail.com"
   links:
@@ -119,7 +119,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://github.com/summerccc"
     - label: "CSDN"
-      icon: "fab fa-fw fa-CSDN-square"
+      icon: "fab fa-fw fa-link"
       url: "https://blog.csdn.net/CHQC388/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
