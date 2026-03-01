@@ -3,19 +3,38 @@
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <script>
-  // 这是一个自动寻找标题位置并插入阅读量的脚本
-  document.addEventListener("DOMContentLoaded", function() {
+  // 2. 增强版搬运脚本
+  function insertBusuanzi() {
+    // 找到主题放置“日期/阅读时间”的容器
     var entryMeta = document.querySelector('.page__meta');
-    if (entryMeta) {
-      // 创建阅读量显示的 HTML
+    
+    // 如果找到了容器，且还没插入过阅读量
+    if (entryMeta && !document.getElementById('busuanzi_container_page_pv')) {
       var pvSpan = document.createElement('span');
-      pvSpan.innerHTML = '<i class="far fa-eye" aria-hidden="true"></i> 阅读量：<span id="busuanzi_value_page_pv"></span> 次';
-      pvSpan.style.marginLeft = "10px"; // 留点间距
+      // 给它加上主题自带的样式类，保持风格统一
+      pvSpan.className = 'page__meta-readtime'; 
+      pvSpan.id = 'busuanzi_container_page_pv';
+      pvSpan.style.display = 'inline'; // 强制显示
+      pvSpan.style.marginLeft = '10px';
       
-      // 把阅读量塞进标题下方的元数据栏（日期、阅读时间旁边）
+      pvSpan.innerHTML = '<i class="far fa-eye" aria-hidden="true"></i> 阅读量：<span id="busuanzi_value_page_pv"></span> 次';
+      
       entryMeta.appendChild(pvSpan);
     }
-  });
+  }
+
+  // 3. 确保在页面加载和不蒜子加载后执行
+  document.addEventListener("DOMContentLoaded", insertBusuanzi);
+  
+  // 针对不蒜子加载慢的情况，每隔一秒检查一次，直到数字出来
+  var checkBusuanzi = setInterval(function() {
+    if (document.getElementById('busuanzi_value_page_pv') && 
+        document.getElementById('busuanzi_value_page_pv').innerHTML !== "") {
+      clearInterval(checkBusuanzi);
+    } else {
+      insertBusuanzi();
+    }
+  }, 1000);
 </script>
 
 
