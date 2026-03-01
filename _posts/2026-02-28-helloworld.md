@@ -1,4 +1,3 @@
-<i class="far fa-eye"></i> 阅读量：<span id="busuanzi_value_page_pv"></span> 次
 ---
 title: "重塑起航"
 excerpt: "记录从零开始搭建极简主义博客的心路历程，以及对未来技术分享的规划。"
@@ -23,7 +22,7 @@ toc_label: "文章目录"
 toc_icon: "cog"
 mathjax: true
 ---
-
+<i class="far fa-eye"></i> 阅读量：<span id="busuanzi_value_page_pv"></span> 次
 ## 为什么选择 Minimal Mistakes？
 
 在折腾了无数个博客主题后，我最终选择了 **Minimal Mistakes**。它不仅有着极简的视觉风格，更重要的是它对 **SEO** 的友好支持以及强大的自定义功能。
