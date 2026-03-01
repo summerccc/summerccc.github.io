@@ -1,3 +1,4 @@
+<i class="far fa-eye"></i> 阅读量：<span id="busuanzi_value_page_pv"></span> 次
 ---
 title: "重塑起航"
 excerpt: "记录从零开始搭建极简主义博客的心路历程，以及对未来技术分享的规划。"
