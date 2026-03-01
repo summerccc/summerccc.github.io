@@ -2,14 +2,21 @@
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-<div style="font-size: 0.8em; color: grey;">
-  <span id="busuanzi_container_site_pv">
-    本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
-  </span>
-  <span id="busuanzi_container_site_uv">
-    | 访客数 <span id="busuanzi_value_site_uv"></span> 人
-  </span>
-</div>
+<script>
+  // 这是一个自动寻找标题位置并插入阅读量的脚本
+  document.addEventListener("DOMContentLoaded", function() {
+    var entryMeta = document.querySelector('.page__meta');
+    if (entryMeta) {
+      // 创建阅读量显示的 HTML
+      var pvSpan = document.createElement('span');
+      pvSpan.innerHTML = '<i class="far fa-eye" aria-hidden="true"></i> 阅读量：<span id="busuanzi_value_page_pv"></span> 次';
+      pvSpan.style.marginLeft = "10px"; // 留点间距
+      
+      // 把阅读量塞进标题下方的元数据栏（日期、阅读时间旁边）
+      entryMeta.appendChild(pvSpan);
+    }
+  });
+</script>
 
 
 

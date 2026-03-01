@@ -4,8 +4,8 @@ excerpt: "记录从零开始搭建极简主义博客的心路历程，以及对�
 header:
   # 文章开头的大图
   overlay_image: /assets/images/2026-02-28-helloworld/07-after lowlightEnh.jpg
-  overlay_filter: 0.5 # 让图片暗一点，突出文字
-  caption: "图片来源：Unsplash"
+  overlay_filter: 0.7 # 让图片暗一点，突出文字
+  # caption: "图片来源：Unsplash"
   # 排列博文的略缩图
   teaser: /assets/images/2026-02-28-helloworld/06-yuv denoising.jpg 
   
@@ -22,7 +22,7 @@ toc_label: "文章目录"
 toc_icon: "cog"
 mathjax: true
 ---
-<i class="far fa-eye"></i> 阅读量：<span id="busuanzi_value_page_pv"></span> 次
+
 ## 为什么选择 Minimal Mistakes？
 
 在折腾了无数个博客主题后，我最终选择了 **Minimal Mistakes**。它不仅有着极简的视觉风格，更重要的是它对 **SEO** 的友好支持以及强大的自定义功能。
