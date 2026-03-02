@@ -156,6 +156,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _includes
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -173,7 +174,6 @@ exclude:
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
-  - LICENSE
   - log
   - minimal-mistakes-jekyll.gemspec
   - node_modules
